@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/webSiteEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/website_margin_top_edt"
@@ -15,26 +16,31 @@
         android:minHeight="48dp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/openWebsiteBTN"
         style="@style/ButtonInApp"
         android:text="@string/open_website_button_text" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/locationEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_location"
         android:minHeight="48dp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/locationBTN"
         style="@style/ButtonInApp"
         android:text="@string/open_location_button_text" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/shareEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_text_share"
         android:minHeight="48dp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/shareBTN"
         style="@style/ButtonInApp"
         android:text="@string/share_button_text" />
 </LinearLayout>

@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Implicit Intents</string>
-    <string name="hint_website">https://developer.android.com/</string>
+    <string name="hint_website">developer.android.com</string>
     <string name="open_website_button_text">Open Website</string>
-    <string name="hint_location">Open Location</string>
-    <string name="hint_text_share">Twas brilling and the slithy toves</string>
+    <string name="hint_location">Write location to found it</string>
+    <string name="hint_text_share">Twas brillig, and the slithy toves</string>
     <string name="open_location_button_text">Open Location</string>
     <string name="share_button_text">Share This Text</string>
+    <string name="share_text_header">Share text with:</string>
 </resources>
