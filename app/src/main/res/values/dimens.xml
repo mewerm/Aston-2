@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_container_padding">32dp</dimen>
+    <dimen name="website_margin_top_edt">20dp</dimen>
+    <dimen name="button_radius">10dp</dimen>
+    <dimen name="button_margin_top">8dp</dimen>
+</resources>
